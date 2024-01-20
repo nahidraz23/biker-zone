@@ -16,7 +16,7 @@
             theme: {
                 extend: {
                     colors: {
-                        'btn-color': '#E76F51',
+                        'secondary-color': '#E76F51',
                         'carousel-bg': 'rgba(231, 111, 81, 0.10)',
                     }
                 }
@@ -60,7 +60,7 @@
                             <li><a>Contact</a></li>
                         </ul>
                     </div>
-                    <a class="text-base lg:text-4xl font-bold">Biker Zone</a>
+                    <a class="text-lg lg:text-4xl font-bold">Biker Zone</a>
                 </div>
                 <div class="flex">
                     <div class="navbar-center hidden lg:flex">
@@ -72,7 +72,7 @@
                         </ul>
                     </div>
                     <div class="navbar-end">
-                        <a class="btn bg-btn-color lg:ml-12 text-white">Login</a>
+                        <a class="btn bg-secondary-color lg:ml-12 text-white">Login</a>
                     </div>
                 </div>
             </div>
@@ -96,7 +96,7 @@
                             Amet minim mollit non deserunt ullamco
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                         </p>
-                        <button class="btn bg-btn-color text-white w-24">Purchase</button>
+                        <button class="btn bg-secondary-color text-white w-24">Purchase</button>
                     </div>
                     <div class="">
                         <img src="./images/slider/bike1.png"/>
@@ -122,7 +122,7 @@
                             Amet minim mollit non deserunt ullamco
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                         </p>
-                        <button class="btn bg-btn-color text-white w-24">Purchase</button>
+                        <button class="btn bg-secondary-color text-white w-24">Purchase</button>
                     </div>
                     <div class="">
                         <img src="./images/slider/bike2.png"/>
@@ -148,7 +148,7 @@
                             Amet minim mollit non deserunt ullamco
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                         </p>
-                        <button class="btn bg-btn-color text-white w-24">Purchase</button>
+                        <button class="btn bg-secondary-color text-white w-24">Purchase</button>
                     </div>
                     <div class="">
                         <img src="./images/slider/bike3.png"/>
@@ -174,7 +174,7 @@
                             Amet minim mollit non deserunt ullamco
                             est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.
                         </p>
-                        <button class="btn bg-btn-color text-white w-24">Purchase</button>
+                        <button class="btn bg-secondary-color text-white w-24">Purchase</button>
                     </div>
                     <div class="">
                         <img src="./images/slider/bike4.png"/>
@@ -188,8 +188,25 @@
         </div>
     </header>
 
-    <main>
-
+    <main class="w-[80%] mx-auto">
+        <!-- featured bike section -->
+        <section class="flex justify-center flex-col mt-10 lg:mt-40">
+            <div class="flex flex-col items-center">
+                <h1 class="text-xl lg:text-5xl font-semibold">Fetured Bikes In This Year</h1>
+                <p class="text-secondary-color mb-5">Best bike collection</p>
+            </div>
+            <div class="h-96 rounded-box flex gap-2 flex-col lg:flex-row lg:justify-around lg:mt-12">
+                <div class=" h-full">
+                    <img src="./images/others/latest1.png" alt="">
+                </div>
+                <div class=" h-full">
+                    <img src="./images/others/latest2.png" alt="">
+                </div>
+                <div class="h-full">
+                    <img src="./images/others/latest3.png" alt="">
+                </div>
+            </div>
+        </section>
     </main>
 
     <footer>
